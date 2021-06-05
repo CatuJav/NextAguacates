@@ -20,7 +20,6 @@ const HomePage = () => {
   console.log(productList)
   return (
     <div>
-      <Navbar />
       <div>Platzi and Next.js!</div>
       {productList.map((product) => {
         return <div>{product.name}</div>
